@@ -32,7 +32,7 @@ const csvReport = {
 function App() {
   return (
     <div className="App">
-      <h3>Export data to CSV in React -Clue Mediator</h3>
+      <h3>Export data to CSV in React - <a href="https://cluemediator.com" target="_blank">Clue Mediator</a></h3>
       <CSVLink {...csvReport}>Export to CSV</CSVLink><br /><br />
       <AsyncCSV />
     </div>
